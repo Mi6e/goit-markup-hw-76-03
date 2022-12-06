@@ -6,21 +6,27 @@
  --body-text-color: #434455;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin: 0;
+}
+
+ul {
+ margin: 0;
+ padding: 0;
+}
+
+img {
+ display: block;
+}
+
 body {
  font-family: "Roboto", sans-serif;
- color: #434455;
-}
-
-.header-link {
- font-weight: 600;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #2e2f42;
-}
-
-.header-link:hover,
-.header-link:focus {
  color: #434455;
 }
 
@@ -30,6 +36,14 @@ body {
 
 a {
  text-decoration: none;
+}
+
+.container {
+ width: 1128px;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin: 0 auto;
+ outline: 2px solid red;
 }
 
 .logo {
@@ -45,6 +59,24 @@ a {
 
 .accent {
  color: var(--accent-color);
+}
+
+header {
+ padding-top: 24px;
+ padding-bottom: 24px;
+}
+
+.header-link {
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+ color: #434455;
 }
 
 .header-link-mail,
